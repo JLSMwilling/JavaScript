@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tic-Tac-Toe</title>
+	<link rel="stylesheet" href="style.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<h1>Tic-Tac-Toe</h1>
+
+	<table class="board">
+		<tr>
+			<td id="sq0" class="x">
+			</td>
+			<td id="sq1" class="o">
+			</td>
+			<td id="sq2" class="o">
+			</td>
+		</tr>
+		<tr>
+			<td id="sq3">
+			</td>
+			<td id="sq4" class="x">
+			</td>
+			<td id="sq5">
+			</td>
+		</tr>
+		<tr>
+			<td id="sq6">
+			</td>
+			<td id="sq7" class="o">
+			</td>
+			<td id="sq8" class="x">
+			</td>
+		</tr>
+	</table>
+
+	<div class="players-turns">
+		<div>
+			<p class="players-text">
+				Player 1: X
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				Player 2: O
+			</p>
+			<p class="turn players-text">
+				It's your turn, player <span id="player-turn">1</span>
+			</p>
+			<input class="btn" type="button" value="reset">
+		</div>
+	</div>
+	<script src="tic-tac-toe-jq.js"></script>
+</body>
+
+</html>
